@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    gap: 0.5em;
+}
+
+.clock-container {
+    display: flex;
+    font-size: 2em;
+}
+
+.digit, .separator {
+    padding: 0 5px;
+}

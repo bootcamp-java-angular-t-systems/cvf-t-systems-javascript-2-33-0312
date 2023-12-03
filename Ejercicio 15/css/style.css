@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery-container {
+    display: flex;
+}
+
+.thumbnails-container {
+    width: 10%;
+}
+
+.thumbnails-container img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.main-image-container {
+    flex: 1;
+    text-align: center;
+}
+
+#mainImage {
+    max-width: 100%;
+    max-height: 70vh;
+}
+
+#caption {
+    margin-top: 10px;
+}
